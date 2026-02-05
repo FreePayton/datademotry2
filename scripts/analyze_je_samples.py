@@ -16,7 +16,7 @@ def detect_date_columns(frame: pd.DataFrame) -> tuple[list[str], pd.DataFrame]:
             non_null_count = series.notna().sum()
             if non_null_count == 0:
                 continue
-            parsed = pd.to_datetime(series, errors="coerce", infer_datetime_format=True)
+            parsed = pd.to_datetime(series, errors="coerce")
             parsed_non_null = parsed.notna().sum()
             if parsed_non_null / non_null_count >= 0.8:
                 updated[column] = parsed
