@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="30" text-anchor="middle" font-size="16">Benford MAD by Column (Higher = More Deviation)</text>
+<text x="115.71428571428572" y="410" text-anchor="middle" font-size="12">JEEntryKey</text>
+<text x="227.14285714285717" y="410" text-anchor="middle" font-size="12">JENumber</text>
+<text x="338.5714285714286" y="410" text-anchor="middle" font-size="12">JEIdentifier</text>
+<text x="450.0" y="410" text-anchor="middle" font-size="12">GLAccountNumber</text>
+<text x="561.4285714285714" y="410" text-anchor="middle" font-size="12">Debit</text>
+<text x="672.8571428571428" y="410" text-anchor="middle" font-size="12">Amount</text>
+<text x="784.2857142857142" y="410" text-anchor="middle" font-size="12">Credit</text>
+<rect x="76.71" y="60.00" width="78.00" height="330.00" fill="#d95f02"/>
+<rect x="188.14" y="60.00" width="78.00" height="330.00" fill="#d95f02"/>
+<rect x="299.57" y="60.00" width="78.00" height="330.00" fill="#d95f02"/>
+<rect x="411.00" y="226.87" width="78.00" height="163.13" fill="#d95f02"/>
+<rect x="522.43" y="375.36" width="78.00" height="14.64" fill="#d95f02"/>
+<rect x="633.86" y="375.37" width="78.00" height="14.63" fill="#d95f02"/>
+<rect x="745.29" y="375.39" width="78.00" height="14.61" fill="#d95f02"/>
+<rect x="850" y="50" width="12" height="12" fill="#d95f02"/>
+<text x="868" y="60" font-size="12">MAD</text>
+</svg>
